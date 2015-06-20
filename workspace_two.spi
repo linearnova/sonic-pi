@@ -1,0 +1,6 @@
+# Welcome to Sonic Pi v2.5
+
+live_loop :flibble do
+  sample :bd_808, rate: 1
+  sleep 0.5
+end
