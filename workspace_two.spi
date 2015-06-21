@@ -1,6 +1,9 @@
 # Welcome to Sonic Pi v2.5
 
-live_loop :flibble do
+live_loop :flibble do  
+  with_fx :echo, mix: 0.3, phase: 0.25 do
+    sample :ambi_choir, rate: 0.2
+  end
   sample :bd_808, rate: 1
   sleep 0.5
 end
