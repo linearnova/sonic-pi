@@ -3,6 +3,7 @@
 live_loop :flibble do
   sample :bd_808, rate: 1
   with_fx :echo, mix: 0.3, phase: 0.25 do
-    sample :ambi_choir, rate: 0.2
+
+  sample :ambi_choir, rate: 0.2
   sleep 0.2
 end
