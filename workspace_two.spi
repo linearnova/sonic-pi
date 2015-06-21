@@ -7,3 +7,8 @@ live_loop :flibble do
   sample :bd_808, rate: 1
   sleep 0.5
 end
+
+live_loop :guit do
+  sample :guit_em9, rate: 0.5
+  sleep 8
+end
