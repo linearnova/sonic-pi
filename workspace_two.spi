@@ -2,6 +2,6 @@
 
 live_loop :flibble do
   sample :bd_808, rate: 1
-  sample :ambi_choir, rate: 0.2
+  sample :ambi_choir, rate: 0.3
   sleep 0.2
 end
