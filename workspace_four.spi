@@ -7,5 +7,8 @@ live_loop :dodo do
   sample :sn_dub, amp: 10
   sleep 1
   sample :ambi_choir, rate: 0.4
-  sleep 3
+  sleep 1
+  sample :bd_tek, amp: 10
+ # sample :ambi_choir, rate: -0.2
+  sleep 2
 end
