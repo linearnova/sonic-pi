@@ -1,5 +1,7 @@
 # Welcome to Sonic Pi v2.5
-
+sample :loop_amen, pan: -1
+sleep 0.877
+sample :loop_amen, pan: 1
 use_synth :prophet
 play 38
 sleep 0.25
