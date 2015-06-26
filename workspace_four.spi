@@ -3,7 +3,7 @@
 print sample_duration :loop_amen
 live_loop :dodo do 
   sample :bd_tek, amp: 10
-  sample :loop_amen, start: 0.7, finish: 0.1
+  sample :loop_amen, start: 0.8, finish: 0.2
   sample :ambi_choir, rate: -0.2
   sleep 2
   sample :ambi_lunar_land
