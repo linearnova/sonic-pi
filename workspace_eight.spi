@@ -1,6 +1,6 @@
 
 use_random_seed 40
-5.times do
+8.times do
   play rrand(50, 100)
   sleep 0.5
 end
