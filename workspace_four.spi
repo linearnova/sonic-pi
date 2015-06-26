@@ -13,6 +13,6 @@ live_loop :dodo do
  # sample :ambi_choir, rate: -0.2
   sleep 2
   sample :sn_dub, amp: 10
-  sample :elec_cymbal
+  sample :elec_triangle
   sleep 2
 end
