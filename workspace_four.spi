@@ -3,6 +3,6 @@
 live_loop :dodo do 
   sample :ambi_choir, rate: -0.2
   sleep 3
-  sample :ambi_choir, rate: 0.6
+  sample :ambi_choir, rate: 0.4
   sleep 3
 end
