@@ -1,7 +1,7 @@
 # Welcome to Sonic Pi v2.5
 
 live_loop :hh do
-  sample :drum_cymbal_soft, amp: 10, rate: 4
+  sample :drum_cymbal_soft, amp: 3, rate: 4
   sleep 0.5
 end
 
