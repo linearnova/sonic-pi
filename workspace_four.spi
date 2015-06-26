@@ -1,5 +1,6 @@
 # Welcome to Sonic Pi v2.5
 
+print sample_duration :loop_amen
 live_loop :dodo do 
   sample :bd_tek, amp: 10
   sample :ambi_choir, rate: -0.2
