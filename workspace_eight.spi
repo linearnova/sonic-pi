@@ -1,5 +1,5 @@
 
-use_random_seed 142
+use_random_seed 142857
 5.times do
   play rrand(50, 100)
   sleep 0.5
