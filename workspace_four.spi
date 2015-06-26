@@ -1,6 +1,6 @@
 # Welcome to Sonic Pi v2.5
 
-live_loop do :ambc
+live_loop :dodo do 
 sample :ambi_choir, rate: 0.2
 sleep 1
 sample :ambi_choir, rate: 0.2
