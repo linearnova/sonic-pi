@@ -12,7 +12,7 @@ end
 in_thread(name: :drums) do
   loop do
     sample :elec_snare
-    sleep 0.25
+    sleep 0.14
   end
 end
  
