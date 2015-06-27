@@ -10,5 +10,5 @@ end
 loop do
   use_synth :fm
   play 40, release: 0.2
-  sleep 0.5
+  sleep 0.7
 end
