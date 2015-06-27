@@ -1,8 +1,10 @@
 # Welcome to Sonic Pi v2.5
 
+in_thread do
 loop do
   sample :drum_heavy_kick
   sleep 1
+end
 end
 
 loop do
