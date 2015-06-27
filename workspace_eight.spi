@@ -10,7 +10,8 @@ use_random_seed 857142
   play rrand(50, 100)
   sleep 0.5
 end
-choose([60, 65, 72])
+
+play choose([60, 65, 72])
 
 use_random_seed 714285
 5.times do
