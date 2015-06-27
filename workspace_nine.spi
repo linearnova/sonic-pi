@@ -6,7 +6,24 @@ loop do
   sleep 1
 end
 end
+in_thread(name: :bass) do
+  loop do
+    use_synth :prophet
+    play chord(:e2, :m7).choose, release: 0.6
+    sleep 0.5
+  end
+end
 
+in_thread(name: :drums) do
+  loop do
+    sample :elec_snare
+    sleep 1
+  end
+end
+ 
+Look at the log pane when you run this code. See how the log reports the name of the thread with the message? 
+[Run 36, Time 4.0, Thread :bass]
+ |- synth :prophet, {release: 0.6, note: 47}
 in_thread do
   use_synth :tb303
   play 50
